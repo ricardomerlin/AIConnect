@@ -1,0 +1,17 @@
+{
+  "name": "facebook-dupe",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed/seed.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.19.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^8.18.0",
+    "morgan": "^1.10.0"
+  }
+}
